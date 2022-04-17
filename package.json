@@ -1,5 +1,5 @@
 {
-  "name": "encde-enc",
+  "name": "encdenc",
   "version": "1.0.0",
   "description": "Encryption Algorithm",
   "main": "EncryptionMachine.js",
