@@ -1,10 +1,10 @@
 {
   "name": "encdenc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encryption Algorithm",
   "main": "EncryptionMachine.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node EncryptionMachine.test.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,13 @@
   "author": "spuckhafte",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/spuckhafte/encde-enc/issues"
+    "url": "https://github.com/spuckhafte/encdenc/issues"
   },
-  "homepage": "https://github.com/spuckhafte/encde-enc#readme"
+  "homepage": "https://github.com/spuckhafte/encdenc#readme",
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "config",
+    "__testAlgorithm"
+  ]
 }
