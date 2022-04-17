@@ -26,6 +26,8 @@ const machine = new EncryptionMachine();
 // size and uniqueness of array ∝ randomized result for same string
 machine.config = [1,3,45,23,666,44,75,999,436]
 ```
+**Keep your config same for your project for correct results**
+
 5. Encrypt stuff
 ```js
 let enc = machine.encrypt("abcd 1234 #${}|\\|"))
