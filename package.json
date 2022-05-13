@@ -1,6 +1,6 @@
 {
   "name": "encdenc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Encryption Algorithm",
   "main": "EncryptionMachine.js",
   "scripts": {
