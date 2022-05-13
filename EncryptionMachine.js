@@ -50,6 +50,12 @@ class EncryptionMachine {
             console.log('\n\x1b[33m' + ((f+1 - same)/f * 100).toString() + '%\x1b[0m \x1b[32mof the encryptions are unique')
             console.log('\x1b[33m' + ((f+1 - cor)/f * 100).toString() + '%\x1b[0m \x1b[32mof the encryptions are correct\n')
             console.log('Total Iterations: \x1b[33m' + f + '\x1b[0m \x1b[32m\nString: \x1b[33m' + word + '\x1b[0m\n')
+            return {
+                iterations: f,
+                string: word,
+                uniqueEncryptionsPercentage: ((f+1 - same)/f * 100).toString(),
+                correctDecryptionsPercentage: ((f+1 - cor)/f * 100).toString()
+            }
         } else console.log('\x1b[31mInvalid arguments\x1b[0m')
     }
 }
